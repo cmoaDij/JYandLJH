@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git clone *)",
+      "Skill(update-config)",
+      "Skill(update-config:*)",
+      "Bash(git -C \"/home/l1/LeTac-MPC-main/LeTac-MPC\" rev-parse --is-inside-work-tree)",
+      "Bash(git -C \"/home/l1/LeTac-MPC-main/superpowers-marketplace\" rev-parse --is-inside-work-tree)",
+      "Bash(git --version)",
+      "Bash(git lfs *)",
+      "Bash(git -C \"/home/l1/LeTac-MPC-main/superpowers-marketplace\" remote -v)",
+      "Bash(sudo apt-get *)",
+      "Bash(conda --version)",
+      "Bash(conda install *)",
+      "Bash(git init *)"
+    ]
+  }
+}
